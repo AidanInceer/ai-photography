@@ -1,5 +1,4 @@
-import ActionButton from "./action"
-import Title from "./title"
+import Title from "./Title"
 
 const NavBar = () => {
     return (
