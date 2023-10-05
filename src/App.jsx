@@ -1,6 +1,7 @@
 import "./App.css";
 import NavBar from "./components/navbar/Navbar";
-import FramedPicture from "./components/frame/picture";
+
+import Gallery from "./components/gallery/gallery";
 
 function App() {
   return (
@@ -8,8 +9,10 @@ function App() {
       <div>
         <NavBar />
       </div>
+      <br></br>
+      <br></br>
       <div>
-        <FramedPicture />
+        <Gallery />
       </div>
     </>
   );
