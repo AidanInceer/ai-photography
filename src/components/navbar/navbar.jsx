@@ -1,4 +1,4 @@
-import Title from "./Title";
+import Title from "./title";
 import ActionButton from "./ActionButton";
 
 const NavBar = () => {

@@ -3,7 +3,7 @@ import React from "react";
 class PictureFrame extends React.Component {
   render() {
     const { filePaths } = this.props;
-    const imagesPerRow = 3; // Number of images per row
+    const imagesPerRow = 3;
 
     const rows = [];
     for (let i = 0; i < filePaths.length; i += imagesPerRow) {
