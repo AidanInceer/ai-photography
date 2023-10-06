@@ -6,7 +6,7 @@ const PictureFrame = ({ filePaths }) => {
           key={index}
           src={path}
           alt={`Image ${index}`}
-          className="p-1 rounded-lg hover:bg-gray-100 flex max-w-lg"
+          className="p-1 rounded-lg hover:bg-gray-100 flex max-w-lg object-cover"
         />
       ))}
     </div>
