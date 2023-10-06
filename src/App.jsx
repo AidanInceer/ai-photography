@@ -6,11 +6,7 @@ import Gallery from "./components/gallery/gallery";
 function App() {
   return (
     <>
-      <div>
-        <NavBar />
-      </div>
-      <br></br>
-      <br></br>
+      <NavBar />
       <div>
         <Gallery />
       </div>
