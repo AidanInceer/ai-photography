@@ -4,8 +4,10 @@ import ActionButton from "./ActionButton";
 const NavBar = () => {
   return (
     <>
-      <div id="navbar" className="h-16 w-full grid grid-cols-3 bg-black text-white shadow-lg">
-        <div></div>
+      <div
+        id="navbar"
+        className="h-16 w-full fixed top-0 flex align-middle justify-center bg-black text-white shadow-lg"
+      >
         <Title />
         <ActionButton />
       </div>
