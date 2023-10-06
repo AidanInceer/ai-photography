@@ -3,7 +3,7 @@ import PictureFrame from "./frame/picture";
 const Gallery = () => {
   return (
     <>
-      <div className="grid grid-cols-3 place-content-start">
+      <div>
         <PictureFrame filePaths={getFileUrls()} />
       </div>
     </>
