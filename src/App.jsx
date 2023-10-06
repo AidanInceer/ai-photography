@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <NavBar />
-      <div>
+      <div className="p-10">
         <Gallery />
       </div>
     </>

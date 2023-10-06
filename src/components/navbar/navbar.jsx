@@ -4,10 +4,7 @@ import ActionButton from "./ActionButton";
 const NavBar = () => {
   return (
     <>
-      <div
-        id="navbar"
-        className="top-0 left-0 w-screen h-16 grid grid-cols-3 bg-black text-white shadow-lg"
-      >
+      <div id="navbar" className="h-16 w-full grid grid-cols-3 bg-black text-white shadow-lg">
         <div></div>
         <Title />
         <ActionButton />
