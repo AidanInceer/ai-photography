@@ -1,6 +1,6 @@
 const PictureFrame = ({ filePaths }) => {
   return (
-    <div className="image-list flex grow justify-center flex-wrap flex-row space-x-2">
+    <div className="image-list flex grow justify-center flex-wrap flex-row">
       {filePaths.map((path, index) => (
         <img
           key={index}
