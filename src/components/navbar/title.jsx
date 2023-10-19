@@ -6,7 +6,7 @@ const Title = () => {
         top-0 left-50 m-0
         bg-black text-white"
     >
-      <h1>AI Photography</h1>
+      <h1 className="whitespace-nowrap">AI Photography</h1>
     </div>
   );
 };

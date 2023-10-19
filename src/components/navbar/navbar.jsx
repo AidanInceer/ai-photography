@@ -6,12 +6,8 @@ const NavBar = () => {
     <>
       <div
         id="navbar"
-        className="
-            fixed top-0 left-0 w-screen h-16
-            grid grid-cols-3
-          bg-black text-white shadow-lg"
+        className="h-16 w-full fixed top-0 flex align-middle justify-center bg-black text-white shadow-lg"
       >
-        <div></div>
         <Title />
         <ActionButton />
       </div>

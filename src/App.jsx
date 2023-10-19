@@ -1,17 +1,12 @@
 import "./App.css";
-import NavBar from "./components/navbar/Navbar";
-
+import NavBar from "./components/navbar/navbar";
 import Gallery from "./components/gallery/gallery";
 
 function App() {
   return (
     <>
-      <div>
-        <NavBar />
-      </div>
-      <br></br>
-      <br></br>
-      <div>
+      <NavBar />
+      <div className="mt-10 p-10">
         <Gallery />
       </div>
     </>
