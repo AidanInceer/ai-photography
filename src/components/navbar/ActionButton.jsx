@@ -1,12 +1,18 @@
 const ActionButton = () => {
   return (
-    <>
-      <div className="flex justify-end">
-        <button className="m-2 right-8 absolute bg-gray-500 text-white p-2 font-semibold rounded">
-          Buy a Print
-        </button>
-      </div>
-    </>
+    <button
+      className="
+        px-4 py-2 rounded-lg
+        bg-white text-black
+        font-medium text-sm
+        hover:bg-white/90
+        active:scale-95
+        transition-all duration-200
+        shadow-lg shadow-white/10
+      "
+    >
+      Buy a Print
+    </button>
   );
 };
 

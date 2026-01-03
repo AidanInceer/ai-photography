@@ -1,12 +1,13 @@
 const Title = () => {
   return (
-    <div
-      id="Title"
-      className="
-        top-0 left-50 m-0
-        bg-black text-white"
-    >
-      <h1 className="whitespace-nowrap">AI Photography</h1>
+    <div id="Title" className="flex items-center">
+      <h1 className="
+        text-lg md:text-xl font-normal tracking-tight
+        text-[var(--text-primary)]
+        font-['Playfair_Display',serif]
+      ">
+        AI Photography
+      </h1>
     </div>
   );
 };

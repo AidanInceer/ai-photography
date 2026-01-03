@@ -1,17 +1,24 @@
 import Title from "./title";
-import ActionButton from "./ActionButton";
+import ThemeToggle from "./ThemeToggle";
 
 const NavBar = () => {
   return (
-    <>
-      <div
-        id="navbar"
-        className="h-16 w-full fixed top-0 flex align-middle justify-center bg-black text-white shadow-lg"
-      >
-        <Title />
-        <ActionButton />
+    <nav
+      id="navbar"
+      className="
+        h-20 w-full fixed top-0 z-40
+        flex items-center justify-between
+        px-8 md:px-16 lg:px-24
+        bg-[var(--bg-primary)]/80 backdrop-blur-xl
+        border-b border-[var(--border)]
+        transition-colors duration-300
+      "
+    >
+      <Title />
+      <div className="flex items-center gap-2">
+        <ThemeToggle />
       </div>
-    </>
+    </nav>
   );
 };
 
